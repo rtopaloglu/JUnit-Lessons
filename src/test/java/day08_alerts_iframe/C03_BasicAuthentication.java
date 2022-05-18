@@ -1,4 +1,4 @@
-package day08_alerts;
+package day08_alerts_iframe;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.AfterClass;
@@ -28,6 +28,7 @@ public class C03_BasicAuthentication {
 
     @Test
     public void acceptAlert() {
+
         driver.get("https://admin:admin@the-internet.herokuapp.com/basic_auth");
     }
 }
